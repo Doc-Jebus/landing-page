@@ -18,6 +18,7 @@ button {
     width: 120px;
     font-weight: bold;
     border-radius: 8px;
+    border-color: white;
     
 }
 
@@ -168,4 +169,22 @@ li:hover:after {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 60vw;
+    background-color: #3882F6;
+}
+
+.sign-up {
+    padding-left: 3rem;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+}
+
+.button-2 {
+    
+    padding-right: 3rem;
 }
