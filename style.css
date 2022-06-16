@@ -14,8 +14,9 @@ h1 {
 button {
     background-color: #3882F6;
     color: white;
-    height: 35px;
-    width: 120px;
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 8px;
     border-color: white;
@@ -170,21 +171,29 @@ li:hover:after {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 200px;
+    height: 170px;
     width: 60vw;
     background-color: #3882F6;
+    border-radius: 8px;
 }
 
 .sign-up {
-    padding-left: 3rem;
+    padding-left: 8rem;
+    color: white; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
     font-weight: 900;
+    margin: 0;
+}
+
+div.sign-up p {
+    margin-top: 3px;
+    font-size: 18px;
 }
 
 .button-2 {
-    
-    padding-right: 3rem;
+    padding-right: 8rem;
 }
