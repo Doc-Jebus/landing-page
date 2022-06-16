@@ -148,12 +148,28 @@ li:hover:after {
 
 .col-3 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    
     height: 400px;
     width: 100vw;
     background-color: #E5E7EB;
-    padding: 2rem;
+}
+
+.quote {
+    margin: 0 350px;
+    font-family: Arial, serif;
+    font-style: italic; 
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-name {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 400px;
+    font: bold 28px/30px Arial, serif;
 }
 
 .col-4 {
@@ -179,6 +195,7 @@ li:hover:after {
 
 .sign-up {
     padding-left: 8rem;
+    margin-top: 8px;
     color: white; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
