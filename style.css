@@ -122,12 +122,19 @@ li:hover:after {
 
 .col-2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    margin-top: -150px;
+    height: 650px;
     width: 100vw;
-    gap: 1rem;
+}
+
+h2 {
+    color: #1F2937;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 38px;
+    font-weight: 900;
 }
 
 .image-2 {
@@ -135,22 +142,36 @@ li:hover:after {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 270px;
+    height: 250px;
     width: 150px;
+    border-radius: 9px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
 }
 
 .card {
-    height: 300px;
-    width: 180px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 150px;
     border: 1px solid blue;
     border-radius:9px;
 }
+
+
 
 .col-3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     height: 400px;
     width: 100vw;
     background-color: #E5E7EB;
